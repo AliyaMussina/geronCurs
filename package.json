@@ -1,0 +1,19 @@
+{
+  "name": "curs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "yarn build && node public/bundle"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "5.2.2",
+    "webpack": "5.90.1",
+    "webpack-cli": "5.1.4"
+  },
+  "dependencies": {
+    "date-fns": "3.3.1"
+  }
+}

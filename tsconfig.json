@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+   "target":"ESNext",
+   "skipLibCheck":true,
+  
+   //для импортирования Json файлов в код 
+   "resolveJsonModule":true,
+   "esModuleInterop":true,
+   "moduleResolution":"node"
+  }
+}
